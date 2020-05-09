@@ -1,0 +1,27 @@
+ git add -A .
+warning: CRLF will be replaced by LF in .gitignore.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in provider.tf.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in resource-group.tf.
+The file will have its original line endings in your working directory
+warning: CRLF will be replaced by LF in vnet.tf.
+The file will have its original line endings in your working directory
+
+
+
+cidrsubnet("172.16.0.0/12", 4, 2)
+172.18.0.0/16
+> cidrsubnet("10.1.2.0/24", 4, 15)
+10.1.2.240/28
+> cidrsubnet("fd00:fd12:3456:7890::/56", 16, 162)
+fd00:fd12:3456:7800:a200::/72
+
+
+2 RG 
+each vnet on each rg
+vnet should not overloop
+each vnet should contain 3 subnet /24
+it hasto apply for both RG
+vneet perring
+
